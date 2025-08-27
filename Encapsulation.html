@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript_Session</title>
+</head>
+<body>
+    <hr>
+    <center>
+        <h1><tt>JavaScript_Session</tt></h1>
+    </center>
+    <hr>
+    <script>
+        class Employee_Details
+        {
+            constructor()
+            {
+                var Eid
+                var Ename
+                var Esal
+                var company
+            }
+            setEid(Eid)
+            {
+                this.Eid=Eid
+            }
+            getEid()
+            {
+                return this.Eid
+            }
+            setEname(Ename)
+            {
+                this.Ename=Ename
+            }
+            getEname()
+            {
+                return this.Ename
+            }
+            setEsal(Esal)
+            {
+                this.Esal=Esal
+            }
+            getEsal()
+            {
+                return this.Esal
+            }
+            setcompany(company)
+            {
+                this.company=company
+            }
+            getcompany()
+            {
+                return this.company
+            }
+        }
+        var e1=new Employee_Details()
+        e1.setEid(1001)
+        e1.setEname("Bharath_1")
+        e1.setEsal(185000)
+        e1.setcompany("Infosys")
+        console.log("===Employee_Details===")
+        console.log("Eid is:"+e1.getEid())
+        console.log("Ename is:"+e1.getEname())
+        console.log("Esal is:"+e1.getEsal())
+        console.log("Company is:"+e1.getcompany())
+    </script>
+</body>
+</html>

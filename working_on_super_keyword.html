@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript_Session</title>
+</head>
+<body>
+    <hr>
+    <center>
+        <h1><tt>JavaScript_Session</tt></h1>
+    </center>
+    <hr>
+    <script>
+        class Vechile_class
+        {
+            constructor()
+            {
+                this.company="BMW"
+
+            }
+        }
+        class Bike_class extends Vechile_class
+        {
+            constructor(Price,Version)
+            {
+                super()
+                this.Price=175000
+                this.Version="BMW_1_T_VERSION"
+            }
+        }
+        var b1=new Bike_class()
+        document.write("===Bike_Details===")
+        document.write("<hr>")
+        document.write("A Car Company is:"+b1.company)
+        document.write("<hr>")
+        document.write("The Price of a Car is:"+b1.Price)
+        document.write("<hr>")
+        document.write("Version of a Car is:"+b1.Version)
+        document.write("<hr>")
+    </script>
+</body>
+</html>

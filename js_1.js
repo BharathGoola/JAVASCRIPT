@@ -1,0 +1,1 @@
+document.write("<h2>Welcome to JavaScript_World....</h2>")

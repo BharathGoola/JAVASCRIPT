@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript_Session</title>
+</head>
+<body>
+    <hr>
+    <center>
+        <h1><tt>JavaScript_Session</tt></h1>
+    </center>
+    <hr>
+    <!-- <script>
+        function Login_Details(username,p1,p2)
+        {
+            this.username=username
+            this.p1=p1
+            this.p2=p2
+        }
+        Login_Details.prototype.FullAccess=function()
+        {
+            return this.username+" "+this.p1+" "+this.p2
+        }
+        var l1=new Login_Details("Bharath_12345","BA_12345","BA_12345")
+        document.write("Full_Access Details:"+l1.FullAccess())
+        document.write("<hr>")
+    </script> -->
+    <script>
+        function Employees(First_Name,Last_Name)
+        {
+            this.First_Name=First_Name
+            this.Last_Name=Last_Name
+        }
+        Employees.prototype.FullName=function()
+        {
+            return this.First_Name+" "+this.Last_Name
+        }
+        var e1=new Employees("Bharath","Goola")
+        document.write("Full_Name is:"+e1.FullName())
+        document.write("<hr>")
+    </script>
+
+</body>
+</html>

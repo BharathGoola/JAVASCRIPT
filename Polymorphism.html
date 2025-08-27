@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript_Session</title>
+</head>
+<body>
+    <hr>
+    <center>
+        <h1><tt>JavaScript_Session</tt></h1>
+    </center>
+    <hr>
+    <script>
+        class A_class
+        {
+            m1()
+            {
+                document.write("This is A_class Implementation")
+                document.write("<hr>")
+            }
+        }
+        class B_class extends A_class
+        {
+            m1()
+            {
+                document.write("This is B_class Implementation")
+                document.write("<hr>")
+            }
+        }
+        class C_class extends B_class
+        {
+            m1()
+            {
+                document.write("This is C_class Implementation")
+                document.write("<hr>")
+            }
+        }
+        var obj1=[new A_class(),new B_class(),new C_class()]
+        obj1.forEach(function(x2){
+            x2.m1()
+        })
+    </script>
+</body>
+</html>

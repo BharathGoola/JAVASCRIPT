@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript_Session</title>
+</head>
+<body>
+    <hr>
+    <center>
+        <h1><tt>JavaScript_Session</tt></h1>
+    </center>
+    <hr>
+    <script>
+        var obj1=new Promise(function(resolve,reject){
+            var x1=1000+2000
+            if(x1==3000)
+            {
+                resolve("Yes Commitment is Done...")
+            }
+            else
+            [
+                reject("No Commitment is not done sorry")
+            ]
+        })
+        obj1.then(function(formResolve){
+            document.write("The Promise is:"+formResolve)
+            document.write("<hr>")
+        }).catch(function(fromReject){
+            document.write("The Promise is:"+fromReject)
+            document.write("<hr>")
+        })
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript_Session</title>
+</head>
+<body>
+    <hr>
+    <center>
+        <h1><tt>JavaScript_Session</tt></h1>
+    </center>
+    <hr>
+    <script>
+        var obj1=new Promise(function(resolve,reject){
+            var x1=1000+200
+            if(x1==3000)
+            {
+                resolve("Yes Commitment is done...")
+            }
+            else
+            {
+                reject("No Commitment is not done sorry")
+            }
+        })
+        obj1.then(function(fromResolve){
+            document.write("Thr promise is:"+fromResolve)
+            document.write("<hr>")
+        }).catch(function(fromReject){
+            document.write("The promise is:"+fromReject)
+            document.write("<hr>")
+        })
+    </script>
+</body>
+</html>
